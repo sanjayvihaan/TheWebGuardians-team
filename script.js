@@ -13,7 +13,7 @@ btn.addEventListener("click", function handleClick(event) {
   const request = new XMLHttpRequest();
   request.open(
     "GET",
-    `https://cors-anywhere.herokuapp.com/https://ipqualityscore.com/api/json/url/DIfN4eg2hWZltfB4eTJemY0tK7vw0mVA/${encodedUrl}`
+    `https://ipqualityscore.com/api/json/url/DIfN4eg2hWZltfB4eTJemY0tK7vw0mVA/${encodedUrl}`
   );
   request.send();
   request.addEventListener("load", function () {
