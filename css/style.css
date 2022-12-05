@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: DM-Sans-bold;
   src: url(../FONTS/DMSans-Bold.ttf);
@@ -12,7 +13,7 @@
 }
 /*Root*/
 :root {
-  --global-color: #8102FF;
+  --global-color: #8102ff;
 }
 
 * {
@@ -20,7 +21,8 @@
 }
 
 /*BODY*/
-html, body {
+html,
+body {
   color: white;
   padding: 0;
   margin: 0;
@@ -28,7 +30,12 @@ html, body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -52,11 +59,12 @@ p {
 .header_section {
   background: #0e1320;
   margin-top: 15px;
-  background: #0E1320;
+  background: #0e1320;
 }
 
 /*HEADER NAV*/
-.header_nav, .nav {
+.header_nav,
+.nav {
   display: flex;
   color: white;
 }
@@ -92,13 +100,14 @@ p {
   color: white;
 }
 
-.nav:nth-child(2) {
+.nav2 {
   position: absolute;
   right: 65px;
 }
 
 /*HEADER MAIN SECTION*/
-.header_main, .sec {
+.header_main,
+.sec {
   background: #0e1320;
   padding-top: 50px;
   display: flex;
@@ -109,7 +118,8 @@ p {
   height: auto;
 }
 
-.h_main, .subsec {
+.h_main,
+.subsec {
   width: 50%;
 }
 
@@ -131,7 +141,8 @@ p {
   width: 55px;
 }
 
-.fa, .fas {
+.fa,
+.fas {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   -webkit-font-smoothing: antialiased;
@@ -212,7 +223,8 @@ p {
 }
 
 .url_collect input:focus + label,
-.url_collect input:not(placeholder-show), .url_collect input:valid label {
+.url_collect input:not(placeholder-show),
+.url_collect input:valid label {
   font-size: 15px;
   top: -12px;
   color: white;
@@ -325,7 +337,7 @@ p {
   }
 }
 #progress {
-  background-color: #181E2C;
+  background-color: #181e2c;
   width: 180px;
   position: absolute;
   top: -45px;
@@ -366,7 +378,9 @@ p {
   }
 }
 /*ABOUT PROJECT SECTION*/
-.about_project, .about_psec, .back_change {
+.about_project,
+.about_psec,
+.back_change {
   background: #0e1320;
 }
 
@@ -375,7 +389,9 @@ p {
   padding-top: 0;
 }
 
-#image1, #image2, #image3 {
+#image1,
+#image2,
+#image3 {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px;
@@ -427,7 +443,8 @@ p {
   box-shadow: 0 0 20px var(--global-color);
 }
 
-.fa-check, .fa {
+.fa-check,
+.fa {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   -webkit-font-smoothing: antialiased;
@@ -441,9 +458,10 @@ p {
   color: var(--global-color);
 }
 
-.fa-solid, .fa_screwdriver-wrench {
+.fa-solid,
+.fa_screwdriver-wrench {
   font-size: 32px;
-  color: #E3E2E5;
+  color: #e3e2e5;
 }
 
 .fa-fingerprint {
@@ -459,7 +477,8 @@ p {
   background: transparent;
 }
 
-.ab_project, .bg {
+.ab_project,
+.bg {
   background: transparent;
 }
 
@@ -488,15 +507,16 @@ p {
 
 .idea_approach {
   background: #0e1320;
+  display: flex;
+  flex-direction: column;
   padding: 50px;
-  display: block;
 }
 
 .idea_approach img {
   width: 100%;
   height: auto;
   border-radius: 100px;
-  margin: 50px auto;
+  margin: 50px auto;
 }
 
 /*TOOLS SECTION*/
@@ -514,7 +534,8 @@ p {
   align-items: center;
 }
 
-.fa, .fa-brands {
+.fa,
+.fa-brands {
   font-size: 50px;
   color: #8b8888;
 }
@@ -529,7 +550,7 @@ p {
 }
 
 .fa-python:hover {
-  background: linear-gradient(to bottom right, #417AA7 50%, #F7CC40 50%);
+  background: linear-gradient(to bottom right, #417aa7 50%, #f7cc40 50%);
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -548,7 +569,7 @@ p {
 }
 .jquery:hover {
   width: 150px;
-  filter: drop-shadow(5px 5px 10px #0865A7);
+  filter: drop-shadow(5px 5px 10px #0865a7);
 }
 
 .django {
@@ -557,7 +578,7 @@ p {
 }
 .django:hover {
   width: 50px;
-  filter: drop-shadow(5px 5px 5px #092D1F);
+  filter: drop-shadow(5px 5px 5px #092d1f);
 }
 
 .api {
@@ -566,42 +587,42 @@ p {
 }
 .api:hover {
   width: 65px;
-  filter: drop-shadow(5px 5px 5px #0865A7);
+  filter: drop-shadow(5px 5px 5px #0865a7);
 }
 
 .fa-bootstrap:hover {
-  color: #7710F1;
-  text-shadow: 0 0 20px #7710F1;
+  color: #7710f1;
+  text-shadow: 0 0 20px #7710f1;
   font-size: 60px;
 }
 
 .fa-css3-alt:hover {
-  color: #254BDD;
-  text-shadow: 0 0 20px #254BDD;
+  color: #254bdd;
+  text-shadow: 0 0 20px #254bdd;
   font-size: 60px;
 }
 
 .fa-js:hover {
-  color: #EFD81D;
-  text-shadow: 0 0 20px #EFD81D;
+  color: #efd81d;
+  text-shadow: 0 0 20px #efd81d;
   font-size: 60px;
 }
 
 .fa-node:hover {
-  color: #6FA660;
-  text-shadow: 0 0 20px #6FA660;
+  color: #6fa660;
+  text-shadow: 0 0 20px #6fa660;
   font-size: 60px;
 }
 
 .fa-html5:hover {
-  color: #DD4B25;
-  text-shadow: 0 0 20px #DD4B25;
+  color: #dd4b25;
+  text-shadow: 0 0 20px #dd4b25;
   font-size: 60px;
 }
 
 .fa-sass:hover {
-  color: #C96195;
-  text-shadow: 0 0 20px #DD4B25;
+  color: #c96195;
+  text-shadow: 0 0 20px #dd4b25;
   font-size: 60px;
 }
 
@@ -617,7 +638,8 @@ p {
   padding: 17px 50px 0 50px;
 }
 
-.team_wrap h2, .team_wrap h5 {
+.team_wrap h2,
+.team_wrap h5 {
   background: transparent;
   color: transparent;
 }
@@ -633,7 +655,7 @@ p {
 }
 
 .team_wrap {
-  background: linear-gradient(to bottom right, #5E5DFF, #FF06B8);
+  background: linear-gradient(to bottom right, #5e5dff, #ff06b8);
   text-align: center;
   -webkit-background-clip: text;
           background-clip: text;
@@ -705,7 +727,11 @@ p {
   margin-bottom: 0px;
 }
 
-.contact_us div, h1, p, h3, form {
+.contact_us div,
+h1,
+p,
+h3,
+form {
   background: transparent;
 }
 
@@ -730,16 +756,19 @@ label {
   padding: 15px 25px;
   border: 3px solid #0e1320;
   border-radius: 20px;
-  background-color: #181E2C;
+  background-color: #181e2c;
   margin: 5px 0 15px 0;
 }
 
-#namee, #emaill, #txtarea {
+#namee,
+#emaill,
+#txtarea {
   outline: none;
   color: white;
 }
 
-.text:hover, .text:focus {
+.text:hover,
+.text:focus {
   box-shadow: 0 0 6px rgba(34, 34, 34, 0.822);
 }
 
@@ -779,6 +808,24 @@ form {
   height: auto;
 }
 
+@media only screen and (max-width: 770px) {
+  .sec {
+    display: block;
+    width: auto;
+  }
+  .subsec {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .nav2 {
+    position: relative;
+    margin-left: 230px;
+  }
+  .idea_approach img {
+    width: auto;
+  }
+}
 @media only screen and (max-width: 770px) {
   .sec {
     display: block;

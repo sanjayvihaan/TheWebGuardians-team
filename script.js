@@ -24,25 +24,25 @@ btn.addEventListener("click", function handleClick(event) {
     <table class="table table-striped">
     <tbody>
         <tr>
-            <td>Safe: <span id="">${data.message}</span></td>
+            <td>Is The Website Safe: <span id="">${data.message}</span></td>
         </tr>
         <tr>
-            <td>Domain: <span>${data.domain}</span></td>
+            <td>The Website Domain: <span>${data.domain}</span></td>
         </tr>
         <tr>
-            <td>Phishing: <span>${data.phishing}</span></td>
+            <td>Is The Website Phishing: <span>${data.phishing}</span></td>
         </tr>
         <tr>
-            <td>Malware: <span>${data.malware}</span></td>
+            <td>Is The Website Malicious: <span>${data.malware}</span></td>
         </tr>
         <tr>
-            <td>Category: <span>${data.category}</span></td>
+            <td>The Website Category: <span>${data.category}</span></td>
         </tr>
         <tr>
-            <td>Risk Score:<span>${data.risk_score}</span></td>
+            <td>Website's Risk Score:<span>${data.risk_score}</span></td>
         </tr>
         <tr>
-            <td>Spamming Domain: <span>${data.spamming}</span></td>
+            <td>Does The Website Have A Spamming Domain: <span>${data.spamming}</span></td>
         </tr>
         <tr>
             <td>Page Size: <span>${data.page_size}</span></td>
@@ -51,7 +51,7 @@ btn.addEventListener("click", function handleClick(event) {
             <td>Content Type: <span>${data.content_type}</span></td>
         </tr>
         <tr>
-            <td>Suspicious: <span>${data.suspicious}</span></td>
+            <td>Is The Website Suspicious: <span>${data.suspicious}</span></td>
         </tr>
         <tr>
             <td>IP Address: <span>${data.ip_address}</span></td>
